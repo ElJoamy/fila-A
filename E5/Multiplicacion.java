@@ -8,7 +8,7 @@ public class Multiplicacion extends AbstractExpression {
     @Override
     public void interpreter(Context context) {
         if (context.input.startsWith("*")){
-            context.signo = 3;
+            context.signo = 2;
             context.input = context.input.substring(this.digit);
         }
     }
